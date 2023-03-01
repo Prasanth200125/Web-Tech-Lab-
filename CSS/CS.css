@@ -1,0 +1,84 @@
+body
+{
+    background-color: grey;
+}
+
+.container
+{
+    border: 5px;
+    border-color:black ;
+    border-style: dotted;
+    padding: 250px;
+    margin: auto;
+}
+.candle
+{
+    
+    background-color: lightgreen;
+    height: 100px;
+    width: 50px;
+    float: left;
+    border:3px solid lightcoral;
+}
+.string
+{
+    background-color: black;
+    height: 30px;
+    width: 3px;
+    bottom: 30px;
+    left: 25px;
+    position: relative;
+
+
+}
+.fan
+{
+    background-color: purple;
+    height: 100px;
+    width: 20px;
+    float: right;
+    border: 1px solid black;
+
+
+}
+.stand
+{
+    background-color: rebeccapurple;
+    height: 15px;
+    width: 100px;
+    border: 1px solid;
+    position: relative;
+    top: 100px;
+    right: 40px;
+    
+}
+
+.circle
+{
+    height: 80px;
+    width: 80px;
+    background-color: blueviolet;
+    border-radius:50% ;
+    position: relative;
+    bottom: 80px;
+    right: 30px;
+    transform: skewx(-50deg);
+    animation-name: animation;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-delay: 0.5s;
+    /* animation-iteration-count: infinite; */
+
+}
+
+.circle:hover
+{
+    background: palevioletred;
+    
+
+}
+
+@keyframes animation {
+   0% {top:100px ; right: 20px; background: palegreen;}
+   100%{ top :150px ; right: 30px;transform: rotate(30deg);}
+}

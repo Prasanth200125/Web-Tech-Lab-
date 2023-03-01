@@ -1,0 +1,170 @@
+html {
+
+    font-family: sans-serif;
+    background-color: #2f3031;
+
+}
+
+body{
+    width: 50%;
+    margin: 0 auto;
+}
+
+.card_div{
+    background-color: rgb(255, 213, 0);
+    margin-top:60px ;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    border-radius: 4px ;
+    width: fit-content;
+
+}
+
+.lastResult{
+
+    color: black;
+    padding: 7px;
+
+}
+
+.guesses {
+
+    color: black;
+
+    padding: 7px;
+
+}
+
+button{
+
+    background-color:purple;
+    color: black;
+    width: 250px;
+    height: 50px;
+    border-radius: 25px;
+    font-size: 30px;
+    margin-top: 30px;
+}
+
+#subt {
+
+    background-color: #ff8205;
+    cursor: pointer;
+    color: #000;
+    width: 241px;
+    height: 50px;
+    border-radius: 25px;
+    font-size: 30px;
+    margin-top: 50px;
+    font-weight: 600;
+    border-style: none;
+    font-family: auto;
+
+}
+
+#restart {
+
+    background-color: #ff8205;
+    cursor: pointer;
+    color: #000;
+    width: 241px;
+    height: 50px;
+    border-radius: 25px;
+    font-size: 30px;
+    border-style: none;
+    margin-top: 50px;
+    font-weight: 600;
+    font-family: auto;
+
+}
+
+#guessField {
+
+    color: #000;
+    width: 550px;
+    height: 79px;
+    font-size: 30px;
+    border-style: none;
+    margin-top: 25px;
+    font-size: 45px;
+    border: 5px solid #0b0b0b;
+    text-align: center;
+}
+
+#guess {
+
+    font-size: 55px;
+    margin-top: 120px;
+    color: black;
+}
+
+.guesses {
+
+    background-color: #565a6f;
+}
+
+#wrapper {
+
+    box-sizing: border-box;
+    text-align: center;
+    width: 750px;
+    height: 550px;
+    background-color: #565a6f;
+    color: black;
+    font-size: 25px;
+}
+
+h1 {
+
+    background-color: #ff8205;
+
+    color: black;
+
+    text-align: center;
+
+    width: 724px;
+
+    font-family: none;
+
+    padding:13px;
+
+}
+
+p {
+
+    font-size: large;
+
+    text-align: center;
+
+    font-weight: 100px;
+
+}
+
+label{
+
+    font-weight: 600;
+    font-size: 49px;
+
+}
+
+.last_p{
+
+    font-weight: 600 !important;
+    font-family: inherit !important;
+
+}
+
+.guess_div{
+
+    border: 1px solid black;
+
+    padding-right: 12px;
+
+    padding-left: 12px;
+
+    background-color: black;
+
+    color: rgb(244, 138, 0);
+
+    margin-left: 3px;
+
+}

@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner&display=swap');
+html{
+margin: 0px;
+padding: 0px;
+}
+body{
+    background: #f2f2f2;
+    margin:0;
+    font-family: 'poppins';
+}
+.container{
+    background-color: rgba(88, 184, 240, 0.936);
+    display: flex;
+    padding: 2px;
+    border: 2px solid rgb(18, 19, 116);
+    justify-content: center;
+
+}
+.TheBox1{
+    
+    background-color: aqua;
+    color: white;
+    border: 2px solid black;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 70px;
+    font-size: 20px;
+    flex-grow: 1;
+}
+.TheBox2{
+    
+    background-color: aqua;
+    color: white;
+    border: 2px solid black;
+    width: 80px;
+    margin: 10px;
+    text-align: center;
+    line-height: 70px;
+    font-size: 20px;
+    flex-grow: 1;
+}
+.TheBox3{
+    
+    background-color: aqua;
+    color: white;
+    border: 2px solid black;
+    width: 60px;
+    margin: 10px;
+    text-align: center;
+    line-height: 70px;
+    font-size: 20px;
+    flex-grow: 1;
+}
+.containerHeading{
+    text-align: center;
+}
+.txt{
+
+    font-size: 64px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 400;
+}
+.c{
+    position: relative;
+    left: 20px;
+
+}
+.s1{
+    position: relative;
+    left: -18px;
+    top: 30px;
+
+}
+.s2{
+    position: relative;
+    left: -57px;
+    top: 60px;
+
+}
+.f{
+    font-size: 105px;
+    font-family:    'Times New Roman', Times, serif ;
+    font-style: italic;
+    
+
+}
+.wild{
+    font-size:24px;
+    position:relative;
+    top: 120px;
+    left: 5px;
+    color: yellow;
+
+}
+.lowers{
+    position: relative;
+    color: red;
+    top: 178px;
+    left: -80px;
+    font-size:24px;
+    
+}
+
